@@ -14,7 +14,7 @@ VHDL 1802 Core with TinyBASIC for the Lattice MachXO2 Pico board
 | ut4.vhd              | UT4 Monitor ROM                           |
 | gpio.vhd             | GPIO unit (2 X 8-bit)                     |
 | pico_basic.lpf       | Lattice Diamond constraints file          |
-| pico_basic.ldf       | Lattice Diamond projetc file              |
+| pico_basic.ldf       | Lattice Diamond project file              |
 
 ## Build and Deploy
 ## UT4 Monitor
