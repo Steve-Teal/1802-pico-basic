@@ -1,0 +1,67 @@
+#---------------------------------------------------------------------------------------------------
+# PICO 1802 Tiny BASIC - Lattice Diamond Constraints File for the MachXO2 Pico Board
+# Other targets will require modification to this file.
+#---------------------------------------------------------------------------------------------------
+# This file is part of the PICO 1802 Tiny BASIC Project
+# Copyright 2016, Steve Teal: steveteal71@gmail.com
+# 
+# This source file may be used and distributed without restriction provided that this copyright
+# statement is not removed from the file and that any derivative work contains the original
+# copyright notice and the associated disclaimer.
+# 
+# This source file is free software; you can redistribute it and/or modify it under the terms
+# of the GNU Lesser General Public License as published by the Free Software Foundation,
+# either version 3 of the License, or (at your option) any later version.
+# 
+# This source is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+# without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+# See the GNU Lesser General Public License for more details.
+# 
+# You should have received a copy of the GNU Lesser General Public License along with this
+# source; if not, download it from http://www.gnu.org/licenses/lgpl-3.0.en.html
+#--------------------------------------------------------------------------------------------------
+# Steve Teal, Northamptonshire, United Kingdom
+#---------------------------------------------------------------------------------------------------
+
+BLOCK RESETPATHS ;
+BLOCK ASYNCPATHS ;
+LOCATE COMP "tx" SITE "E2" ;
+IOBUF PORT "tx" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "clock" SITE "A7" ;
+LOCATE COMP "reset_n" SITE "N3" ;
+IOBUF PORT "clock" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+IOBUF PORT "reset_n" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "rx" SITE "E1" ;
+IOBUF PORT "rx" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pa[0]" SITE "K1" ;
+IOBUF PORT "pa[0]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pa[1]" SITE "K3" ;
+IOBUF PORT "pa[1]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pa[2]" SITE "M7" ;
+IOBUF PORT "pa[2]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pa[3]" SITE "N8" ;
+IOBUF PORT "pa[3]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pa[4]" SITE "B1" ;
+IOBUF PORT "pa[4]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pa[5]" SITE "B2" ;
+IOBUF PORT "pa[5]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pa[6]" SITE "C1" ;
+IOBUF PORT "pa[6]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pa[7]" SITE "C3" ;
+IOBUF PORT "pa[7]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pb[0]" SITE "C2" ;
+IOBUF PORT "pb[0]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pb[1]" SITE "D1" ;
+IOBUF PORT "pb[1]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pb[2]" SITE "C8" ;
+IOBUF PORT "pb[2]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pb[3]" SITE "B8" ;
+IOBUF PORT "pb[3]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pb[4]" SITE "B13" ;
+IOBUF PORT "pb[4]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pb[5]" SITE "A13" ;
+IOBUF PORT "pb[5]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pb[6]" SITE "C10" ;
+IOBUF PORT "pb[6]" IO_TYPE=LVCMOS33 PULLMODE=NONE ;
+LOCATE COMP "pb[7]" SITE "N12" ;
+IOBUF PORT "pb[7]" PULLMODE=NONE IO_TYPE=LVCMOS33 ;
